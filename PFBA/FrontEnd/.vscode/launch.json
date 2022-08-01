@@ -7,7 +7,7 @@
       "type": "pwa-chrome",
       "request": "launch",
       "preLaunchTask": "npm: start",
-      "url": "http://localhost:4200/"
+      "url": "mysql://ukrsrxv3kqvdbsa3:BN9zh0VaIrhpKClqQpl9@b1pavas7zfwu4loefmgv-mysql.services.clever-cloud.com:3306/b1pavas7zfwu4loefmgv"
     },
     {
       "name": "ng test",
