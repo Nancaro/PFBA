@@ -12,6 +12,7 @@ div{
         width: 10%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
+        border: 10px solid #0a2239; 
         left: 5%;
         top: 600px;
     }
