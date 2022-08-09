@@ -3,13 +3,11 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { persona } from '../model/persona.model';
 
-const TOKEN_KEY = 'auth-token';
-const USERNAME_KEY = 'AuthUsername';
 @Injectable({
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = 'http://localhost:8080/personas' ;
+  URL = 'http://localhost:8080/personas/' ;
 
   constructor(private http: HttpClient) { }
 
