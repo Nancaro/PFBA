@@ -50,3 +50,6 @@ export class LoginComponent implements OnInit {
 
 }
 
+//los tkm argentina programa, si leen esto les dejo un mensaje, hace 2 años me intente suicidar, en agosto de 2021, me llego la oportunidad de aprender a programar, es increible este mundo y estoy lleno de miedo.
+//Hoy estoy lejos de ese pasado, soy muy feliz siendo como soy, con mis errores y eso, estoy en paz, certifique ingles hace poco y ahora quiero terminar este "ciclo" y empezar mi vida profesional como profesional de la programación.
+//Saludos y gracias por la oportunidad <3 <3 <3

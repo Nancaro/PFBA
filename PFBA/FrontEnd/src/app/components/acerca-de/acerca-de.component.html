@@ -1,16 +1,20 @@
 <div class="row">
-    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src="../../../assets/perfil.jpg" class="img-fluid" id="fotodeperfil">
+       <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <img src={{persona.img}} class="img-fluid" id="fotodeperfil">
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">   
-        <h2><p id="nombre">{{persona.nombre}}{{persona.apellido}}</p></h2>
+        <h2><p id="nombre">{{persona.nombre}} {{persona.apellido}}</p></h2>
         <p>Full Stack Developer Jr</p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 descripcion">
         <span>
             <h1>Acerca de mi </h1>
-            <p> Primero lo primero: ¡Gracias por visitar mi sitio web!
-                Tengo 26 años, vivo en Caleta Olivia ARG y en este sitio web voy a compartir con ustedes todo lo relacionado con mis proyectos y mi carrera como desarrollador, por eso me comprometo a mantener todo actualizado. Soy una persona que ama estudiar, soy autodidacta, me encanta trabajar en grupo y compartir mis conocimientos. Hablo fluidamente español, portugués e inglés, soy profesor de lengua y literatura española.</p>
+            <p>{{persona.descripcion}}</p>
         </span>
+    </div>
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged">
+            Editar persona
+        </button>
     </div>
 </div>

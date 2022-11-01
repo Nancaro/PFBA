@@ -4,17 +4,23 @@
 div{
     background-color: #2bc4ff;
     text-align: center;
+    
 }
 /*Estilo de la foto de perfil*/
 @media (min-width: 576px){
     #fotodeperfil{
-        position: absolute;
+        
         width: 10%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         border: 10px solid #0a2239; 
-        left: 5%;
-        top: 600px;
+        
+    }
+    .descripcion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 }
 @media (max-width: 575px){
